@@ -4,7 +4,7 @@ Cryptoescudo integration/staging tree
 http://www.cryptoescudo.pt
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2018 Cryptoescudo Developers
+Copyright (c) 2013-2018 Cryptoescudo Developers
 
 What is Cryptoescudo?
 ----------------
