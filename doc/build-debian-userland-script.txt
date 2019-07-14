@@ -50,7 +50,7 @@ mv source v1.1.5.1-20141117-public
 
 # Unzip chain
 unzip chain.zip 
-mv Cryptoescudo $cescdatapath
+mv Cryptoescudo/* $cescdatapath
 
 cd v1.1.5.1-20141117-public/src/
 
