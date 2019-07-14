@@ -47,7 +47,7 @@ or if you are working in your LAN and have a computer and android on same LAN yo
  
  bash <(curl -s https://raw.githubusercontent.com/VDamas/cryptoescudo/master/doc/build-debian-userland-script.txt)
  
-Done, wait a while (30 minutes) you shoud have a running Cryptoescudo full node.
+Done, wait a while (+-60 minutes) you shoud have a running Cryptoescudo full node.
 
 After this 1st time you can start and debug cryptoescudo by executing scripts on /opt/cryptoescudo. 
 No need to build every time
