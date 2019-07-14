@@ -42,7 +42,7 @@ rm -Rf v1.1.5.1-20141117-public
 wget -O v1.1.5.1-20141117-public.zip http://cryptoescudo.pt/download/20141117/source.zip
 
 # Download chain
- curl -L -o chain.zip https://uc3a006a0273e299b2c55b2d9bb7.dl.dropboxusercontent.com/cd/0/get/AkoyaRMW_nPcFiX5VLQZt3Nn59RxY__YzGyZYhlof5x4FfvqNDxZYnnOjYR4ZyZ5dnCpn6nuK2k1nKlgcXqx4TcbVRICuxGc7Iawj_iYywEFeQ/file?_download_id=4517190935765924612968693822571198732268561560314827496979950772005&_notify_domain=www.dropbox.com&dl=1
+wget -O chain.zip https://uc3a006a0273e299b2c55b2d9bb7.dl.dropboxusercontent.com/cd/0/get/AkoyaRMW_nPcFiX5VLQZt3Nn59RxY__YzGyZYhlof5x4FfvqNDxZYnnOjYR4ZyZ5dnCpn6nuK2k1nKlgcXqx4TcbVRICuxGc7Iawj_iYywEFeQ/file?_download_id=4517190935765924612968693822571198732268561560314827496979950772005&_notify_domain=www.dropbox.com&dl=1
 
 # Unzip source
 unzip v1.1.5.1-20141117-public.zip
