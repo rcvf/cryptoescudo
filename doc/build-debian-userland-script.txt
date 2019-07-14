@@ -41,17 +41,22 @@ rm -Rf v1.1.5.1-20141117-public
 # Download source 
 wget -O v1.1.5.1-20141117-public.zip http://cryptoescudo.pt/download/20141117/source.zip
 
-# Download chain
-wget -O chain.zip https://uc3a006a0273e299b2c55b2d9bb7.dl.dropboxusercontent.com/cd/0/get/AkoyaRMW_nPcFiX5VLQZt3Nn59RxY__YzGyZYhlof5x4FfvqNDxZYnnOjYR4ZyZ5dnCpn6nuK2k1nKlgcXqx4TcbVRICuxGc7Iawj_iYywEFeQ/file?_download_id=4517190935765924612968693822571198732268561560314827496979950772005&_notify_domain=www.dropbox.com&dl=1
+# Download chain - dropbox
+#wget -O chain.zip https://uc3a006a0273e299b2c55b2d9bb7.dl.dropboxusercontent.com/cd/0/get/AkoyaRMW_nPcFiX5VLQZt3Nn59RxY__YzGyZYhlof5x4FfvqNDxZYnnOjYR4ZyZ5dnCpn6nuK2k1nKlgcXqx4TcbVRICuxGc7Iawj_iYywEFeQ/file?_download_id=4517190935765924612968693822571198732268561560314827496979950772005&_notify_domain=www.dropbox.com&dl=1
+# Unzip chain
+#unzip chain.zip 
+#mv Cryptoescudo/* $cescdatapath
+
+# Download chain - drive
+sudo wget -O /usr/sbin/gdrivedl 'https://f.mjh.nz/gdrivedl'
+sudo chmod +x /usr/sbin/gdrivedl
+gdrivedl 1nguUEnfCRpMrABsXQTlfW0n7iGVyNlAq ./chain.zip
+# Unzip chain
+unzip chain.zip -d $cescdatapath
 
 # Unzip source
 unzip v1.1.5.1-20141117-public.zip
 mv source v1.1.5.1-20141117-public
-
-# Unzip chain
-unzip chain.zip 
-mv Cryptoescudo/* $cescdatapath
-
 cd v1.1.5.1-20141117-public/src/
 
 # Update atomic_pointer.h with ARM64 support
