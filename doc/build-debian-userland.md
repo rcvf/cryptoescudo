@@ -6,11 +6,11 @@ Install UserLAnd from Play store on Android device (tested on Huawei P20 Lite)
 On UserLAnd:
  
  1 - Create a file system:
-  File system name: cesc
-  User: cescudo
-  Pass: 1111 (use other, this one i used for tests)
-  VNX pass: 12345678 (use other, this one i used for tests)
-  File system: Debian
+  File system name: cesc  
+  User: cescudo  
+  Pass: 1111 (use other, this one i used for tests)  
+  VNX pass: 12345678 (use other, this one i used for tests)  
+  File system: Debian  
   Save 
   
  2 - Create a session:
