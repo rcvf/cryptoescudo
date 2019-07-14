@@ -14,10 +14,16 @@ On UserLAnd:
   Save 
   
  2 - Create a session:
+ 
   Session name: cescudo
+  
   File system: cesc:Debian
+  
   User: cescudo (predefined)
+  
   Save
+  
+  
   
  3 - Click on session created in step 2 to ssh to debian (wait for file system creation on 1st time)
  
