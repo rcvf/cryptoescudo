@@ -22,7 +22,8 @@ On UserLAnd:
  
  4 - Input password you defined on step 1, You are in Debian OS
  
-To build cryptoescudo, and start daemon and chain sync type this command: 
+To build cryptoescudo, and start daemon and chain sync type this command:
+
  bash <(curl -s https://raw.githubusercontent.com/VDamas/cryptoescudo/master/doc/build-debian-userland-script.txt)
  
 or if you are working in your LAN and have a computer and android on same LAN you can ssh from laptop and paste command above:
