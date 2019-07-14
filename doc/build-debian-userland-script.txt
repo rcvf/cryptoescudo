@@ -83,7 +83,7 @@ sudo chmod +x $cescdebugscript
 
 # Create cryptoescudo query script
 sudo tee "$cescqueryscript" > /dev/null <<EOF
-$cescpath/cryptoescudod -datadir=$cescdatapath $1 $2 $3
+$cescpath/cryptoescudod -datadir=$cescdatapath \$1 \$2 \$3
 EOF
 sudo chmod +x $cescqueryscript
 
