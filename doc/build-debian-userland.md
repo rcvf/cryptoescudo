@@ -38,4 +38,7 @@ or if you are working in your LAN and have a computer and android on same LAN yo
  
 Done, wait a while (30 minutes) you shoud have a running Cryptoescudo full node.
 
-After this 1st time you can start and debug cryptoescudo by executing scripts on /opt/cryptoescudo. No need to build every time
+After this 1st time you can start and debug cryptoescudo by executing scripts on /opt/cryptoescudo. 
+No need to build every time
+
+
