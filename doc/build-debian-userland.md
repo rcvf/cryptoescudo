@@ -24,12 +24,14 @@ On UserLAnd:
  
 To build cryptoescudo, and start daemon and chain sync type this command:
 
+ sudo apt install curl -y
  bash <(curl -s https://raw.githubusercontent.com/VDamas/cryptoescudo/master/doc/build-debian-userland-script.txt)
  
 or if you are working in your LAN and have a computer and android on same LAN you can ssh from computer and paste command above:
  1 - On debian, type command: ip addr, you should find a local LAN address like 192.168.* 
  2 - On your computer ssh to the IP found in previous step with port 2022, autenticate yourself, and paste 
  
+ sudo apt install curl -y
  bash <(curl -s https://raw.githubusercontent.com/VDamas/cryptoescudo/master/doc/build-debian-userland-script.txt)
  
 Done, wait a while (30 minutes) you shoud have a running Cryptoescudo full node.
