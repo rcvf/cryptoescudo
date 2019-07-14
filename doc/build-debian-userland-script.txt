@@ -3,6 +3,7 @@ cescpath=/opt/cryptoescudo
 cescdatapath=$cescpath/data
 cescdaemonscript=$cescpath/cesc_daemon.sh
 cescdebugscript=$cescpath/cesc_debug.sh
+cescqueryscript=$cescpath/cesc_query.sh
 cescconffile=$cescdatapath/cryptoescudo.conf
 
 # Create folders
@@ -80,6 +81,12 @@ tail -f $cescdatapath/debug.log
 EOF
 sudo chmod +x $cescdebugscript
 
+# Create cryptoescudo query script
+sudo tee "$cescqueryscript" > /dev/null <<EOF
+$cescpath/cryptoescudod -datadir=$cescdatapath $1 $2 $3
+EOF
+sudo chmod +x $cescqueryscript
+
 # Create cryptoescudo.conf
 rpcpass=$(openssl rand -hex 32) # generate pass
 sudo tee "$cescconffile" > /dev/null <<EOF
@@ -91,6 +98,8 @@ server=1
 listen=1
 txindex=1
 EOF
+
+
 
 sudo chmod +x $cescdaemonscript
 sudo chmod +x $cescdebugscript
